@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/andreamainella98/phone_state/master/images/icon.png">
+    <img src="https://raw.githubusercontent.com/codeislife07/phone_state_handler/master/images/icon.png">
 </div>
 
 ## DESCRIPTION
@@ -34,15 +34,15 @@ dependencies:
 ### Get stream phone state status
 
 ```dart
-StreamBuilder<PhoneStateHandler>(
-  initialData: PhoneStateHandler.nothing(),
-  stream: PhoneStateHandler.stream,
+StreamBuilder<PhoneState>(
+  initialData: PhoneState.nothing(),
+  stream: PhoneState.stream,
   ...
 ```
 
 ## SCREENSHOT
 
-<img src="https://raw.githubusercontent.com/andreamainella98/phone_state/master/images/example.gif" width=300/>
+<img src="https://raw.githubusercontent.com/codeislife07/phone_state_handler/master/images/example.gif" width=300/>
 
-Write me in the [GitHub](https://github.com/andreamainella98/phone_state/issues) issues the new features you need and, if they are approved of course, I will implement them as soon as I can.
+Write me in the [GitHub](https://github.com/codeislife07/phone_state_handler/issues) issues the new features you need and, if they are approved of course, I will implement them as soon as I can.
 
