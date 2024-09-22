@@ -20,7 +20,7 @@ This plugin allows you to know quickly and easily if your Android or iOS device 
 dependencies:
   flutter:
     sdk: flutter
-  phone_state: 1.0.4
+  phone_state: 1.0.1
 ```
 #### Android: Added permission on manifest
 ```xml
