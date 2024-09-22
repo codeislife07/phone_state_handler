@@ -4,6 +4,8 @@
 
 ## DESCRIPTION
 
+This plugin modified from [phone_state](https://pub.dev/packages/phone_state)
+
 This plugin allows you to know quickly and easily if your Android or iOS device is receiving a call and to know the status of the call.
 
 - Native Android: [TelephonyManager](https://developer.android.com/reference/android/telephony/TelephonyManager)
@@ -38,6 +40,7 @@ StreamBuilder<PhoneState>(
   initialData: PhoneState.nothing(),
   stream: PhoneState.stream,
   ...
+)
 ```
 
 ## SCREENSHOT
